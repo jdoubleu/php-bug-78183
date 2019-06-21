@@ -1,5 +1,7 @@
-# finfo_file shows wrong mime-type for .tga file
+# finfo_file shows wrong mime-type for .tga file [![Build Status](https://travis-ci.com/jdoubleu/php-bug-78183.svg?branch=master)](https://travis-ci.com/jdoubleu/php-bug-78183)
 https://bugs.php.net/bug.php?id=78183
+
+Check it out on travis: https://travis-ci.com/jdoubleu/php-bug-78183.
 
 ## Usage
 Run make:
