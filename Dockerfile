@@ -1,5 +1,5 @@
-ARG PHP_VER=7.2
-FROM php:${PHP_VER}-cli
+ARG DOCKER_PHP_VER=7.2-cli
+FROM php:${DOCKER_PHP_VER}
 
 
 COPY . /usr/src/myapp
