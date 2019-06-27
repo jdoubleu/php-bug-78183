@@ -8,7 +8,7 @@ IMAGES:=$(shell docker images | grep php-bug-78183 | awk '{ n=$$1":"$$2; print n
 all: run/7.2-cli run/7.3-cli run/7.4-rc-cli
 	@echo finished
 
-build/%: Dockerfile script.php
+build/%: Dockerfile src/script.php
 	$(BUILD):$* . --build-arg DOCKER_PHP_VER=$*
 
 run/%: build/%

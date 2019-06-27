@@ -3,6 +3,8 @@ https://bugs.php.net/bug.php?id=78183
 
 Check it out on travis: https://travis-ci.com/jdoubleu/php-bug-78183.
 
+The `src/earth.tga` image was taken from http://people.math.sc.edu/Burkardt/data/tga/earth.tga.
+
 ## Usage
 Run make:
 ```sh
