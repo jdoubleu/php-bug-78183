@@ -19,6 +19,7 @@ run/%: build/%
 	@echo
 	@echo ------------------------------------------
 	$(RUN):$* php -r 'phpinfo(INFO_MODULES);' | sed -n '/fileinfo/,/libmagic/p'
+	$(RUN):$* file -v
 	@echo
 	@echo ==========================================
 
